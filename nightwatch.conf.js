@@ -10,10 +10,10 @@ module.exports = {
     detailed_output: true,
     live_output: true,
     test_settings: {
-        chrome: {
+        default: {
             webdriver: {
                 start_process: true,
-                server_path: 'C:\\Users\\Administrador\\OneDrive\\Escritorio\\Prueba Up\\UPshow-QA-Evaluation\\node_modules\\chromedriver\\lib\\chromedriver\\chromedriver.exe',
+                server_path: 'require('chromedriver').path',
                 port: 4444,
                 host: 'localhost',
                 ssl: false,
